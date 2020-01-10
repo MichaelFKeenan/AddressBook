@@ -91,3 +91,11 @@ C:\Github\AddressBook\AddressBook.Tests.Unit\obj\Debug\netcoreapp3.1\AddressBook
 C:\Github\AddressBook\AddressBook.Tests.Unit\obj\Debug\netcoreapp3.1\AddressBook.Tests.Unit.csproj.CopyComplete
 C:\Github\AddressBook\AddressBook.Tests.Unit\obj\Debug\netcoreapp3.1\AddressBook.Tests.Unit.dll
 C:\Github\AddressBook\AddressBook.Tests.Unit\obj\Debug\netcoreapp3.1\AddressBook.Tests.Unit.pdb
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\AddressBook.exe
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\AddressBook.dll
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\AddressBook.pdb
