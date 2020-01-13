@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using AddressBook.Models;
 using AddressBook.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace AddressBook.Controllers
 {
@@ -14,17 +11,28 @@ namespace AddressBook.Controllers
     public class AddressController : ControllerBase
     {
         private IAddressService _addressService;
+        private ILogger<AddressController> _logger;
 
-        public AddressController(IAddressService addressService)
+        public AddressController(IAddressService addressService, ILogger<AddressController> logger)
         {
             _addressService = addressService;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAddressCityGroups()
         {
-            var result = await _addressService.GetAddressCityGroups();
-            return Ok(result);
+            try
+            {
+                var result = await _addressService.GetAddressCityGroups();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                //bare minimum error handling
+                _logger.LogError(ex.Message);
+                return StatusCode(500);
+            }
         }
     }
 }
