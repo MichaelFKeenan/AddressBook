@@ -1,0 +1,13 @@
+[{
+    "firstname": "first 1",
+    "lastname": "last 1",
+    "streetaddress": "street 1",
+    "city": "city 1",
+    "country": "country 1"
+}, {
+    "firstname": "first 2",
+    "lastname": "last 2",
+    "streetaddress": "street 2",
+    "city": "City 1",
+    "country": "country 1"
+}]

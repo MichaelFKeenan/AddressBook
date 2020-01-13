@@ -99,3 +99,6 @@ C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Microsoft.D
 C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\AddressBook.dll
 C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\AddressBook.pdb
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\NSubstitute.dll
+C:\Github\AddressBook\AddressBook.Tests.Unit\bin\Debug\netcoreapp3.1\Addresses.json

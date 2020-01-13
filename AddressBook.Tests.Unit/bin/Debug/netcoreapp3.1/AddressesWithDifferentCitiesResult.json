@@ -1,0 +1,29 @@
+[{
+        "City": "city 1",
+        "Addresses": [{
+                "FirstName": "first 1",
+                "LastName": "last 1",
+                "StreetAddress": "street 1",
+                "City": "city 1",
+                "Country": "country 1"
+            },
+            {
+                "FirstName": "first 3",
+                "LastName": "last 3",
+                "StreetAddress": "street 3",
+                "City": "city 1",
+                "Country": "country 1"
+            }
+        ]
+    },
+    {
+        "City": "city 2",
+        "Addresses": [{
+            "FirstName": "first 2",
+            "LastName": "last 2",
+            "StreetAddress": "street 2",
+            "City": "city 2",
+            "Country": "country 1"
+        }]
+    }
+]
