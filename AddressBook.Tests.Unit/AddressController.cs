@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using NSubstitute.ExceptionExtensions;
 using System;
 using Microsoft.Extensions.Logging;
+using System.Net;
 
 namespace AddressBook.Tests.Unit
 {
@@ -40,16 +41,14 @@ namespace AddressBook.Tests.Unit
             Assert.IsInstanceOf<List<AddressCityGroup>>(result.Value);
         }
 
-        // should really have one assert per test but run out of time!
         [Test]
-        public async Task Given_AddressServiceFails_When_GetAddressCityGroups_Then_ReturnErrorAndLogMessage()
+        public async Task Given_AddressServiceFails_When_GetAddressCityGroups_Then_LogMessage()
         {
             var serviceExceptionMessage = "some error";
             _addressService.GetAddressCityGroups().Throws(new Exception(serviceExceptionMessage));
+            
+            var result = await _sut.GetAddressCityGroups();
 
-            var result = await _sut.GetAddressCityGroups() as ObjectResult;
-
-            Assert.True(result.StatusCode == 500);
             _logger.Received().LogError(serviceExceptionMessage);
         }
     }

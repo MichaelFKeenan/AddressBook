@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Tests.Unit", "AddressBook.Tests.Unit\AddressBook.Tests.Unit.csproj", "{10D1E0EA-65FB-4558-BF0D-035F83644A3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook.Tests.Unit", "AddressBook.Tests.Unit\AddressBook.Tests.Unit.csproj", "{10D1E0EA-65FB-4558-BF0D-035F83644A3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{54BC6237-35DB-460F-BA1D-38D48D01CA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook", "AddressBook\AddressBook.csproj", "{54BC6237-35DB-460F-BA1D-38D48D01CA73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,22 +16,7 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|x64.Build.0 = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Debug|x86.Build.0 = Debug|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|x64.ActiveCfg = Release|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|x64.Build.0 = Release|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|x86.ActiveCfg = Release|Any CPU
-		{753CB840-83B9-4DB0-B7BE-2FA8816A535D}.Release|x86.Build.0 = Release|Any CPU
 		{10D1E0EA-65FB-4558-BF0D-035F83644A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10D1E0EA-65FB-4558-BF0D-035F83644A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D1E0EA-65FB-4558-BF0D-035F83644A3A}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -56,5 +41,11 @@ Global
 		{54BC6237-35DB-460F-BA1D-38D48D01CA73}.Release|x64.Build.0 = Release|Any CPU
 		{54BC6237-35DB-460F-BA1D-38D48D01CA73}.Release|x86.ActiveCfg = Release|Any CPU
 		{54BC6237-35DB-460F-BA1D-38D48D01CA73}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53C333B-B5A5-470F-AA71-52CF0C532FC4}
 	EndGlobalSection
 EndGlobal

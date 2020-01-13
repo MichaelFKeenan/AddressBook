@@ -6,8 +6,8 @@ using Microsoft.Extensions.Logging;
 
 namespace AddressBook.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class AddressController : ControllerBase
     {
         private IAddressService _addressService;
@@ -19,7 +19,7 @@ namespace AddressBook.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> GetAddressCityGroups()
         {
             try

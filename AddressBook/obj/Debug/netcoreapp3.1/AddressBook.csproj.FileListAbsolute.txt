@@ -19,3 +19,5 @@ C:\Github\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.pdb
 c:\Github\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 c:\Github\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.csproj.CopyComplete
 C:\Github\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\Addresses.json
+C:\Github\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Github\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
